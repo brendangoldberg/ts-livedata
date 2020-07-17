@@ -10,7 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0c5006b-0bcd-4b55-a5f2-ef96da74828b" name="Default Changelist" comment="" />
+    <list default="true" id="b0c5006b-0bcd-4b55-a5f2-ef96da74828b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,6 +108,7 @@
       <workItem from="1595013979465" duration="5173000" />
       <workItem from="1595019163683" duration="46000" />
       <workItem from="1595019216729" duration="17000" />
+      <workItem from="1595019257113" duration="624000" />
     </task>
     <servers />
   </component>
@@ -121,6 +125,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="632" y="351" width="652" height="408" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595018290767">

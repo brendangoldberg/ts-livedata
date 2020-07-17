@@ -1,7 +1,7 @@
 {
-  "name": "ts-livedata",
+  "name": "@ts-livedata/core",
   "version": "0.1.0",
-  "description": "A Typescript LiveData library",
+  "description": "A TypeScript LiveData library.",
   "scripts": {
     "test": "mocha -r ts-node/register src/test/**/*.spec.ts",
     "coverage": "nyc mocha -r ts-node/register src/test/**/*.spec.ts",
