@@ -11,17 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0c5006b-0bcd-4b55-a5f2-ef96da74828b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/LiveData.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/LiveData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/MutableLiveData.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/MutableLiveData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LiveData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/LiveData.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MutableLiveData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/MutableLiveData.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Observer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/MutableLiveData.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MutableLiveData.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ts-livedata-core-0.1.0.tgz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +110,7 @@
       <workItem from="1595013979465" duration="5173000" />
       <workItem from="1595019163683" duration="46000" />
       <workItem from="1595019216729" duration="17000" />
-      <workItem from="1595019257113" duration="2243000" />
+      <workItem from="1595019257113" duration="2420000" />
     </task>
     <servers />
   </component>

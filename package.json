@@ -1,12 +1,14 @@
 {
   "name": "@ts-livedata/core",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A TypeScript LiveData library.",
   "scripts": {
     "test": "mocha -r ts-node/register src/test/**/*.spec.ts",
     "coverage": "nyc mocha -r ts-node/register src/test/**/*.spec.ts",
     "build": "tsc"
   },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "private": false,
   "keywords": [],
   "author": "Brendan Goldberg",
