@@ -11,8 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0c5006b-0bcd-4b55-a5f2-ef96da74828b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tester" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
@@ -108,7 +110,7 @@
       <workItem from="1595013979465" duration="5173000" />
       <workItem from="1595019163683" duration="46000" />
       <workItem from="1595019216729" duration="17000" />
-      <workItem from="1595019257113" duration="881000" />
+      <workItem from="1595019257113" duration="1771000" />
     </task>
     <servers />
   </component>
@@ -128,14 +130,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="632" y="351" width="652" height="408" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595018290767">
+    <state x="632" y="346" width="703" height="408" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595029459904">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="632" y="351" width="652" height="408" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1595018290767" />
+    <state x="632" y="346" width="703" height="408" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1595029459904" />
     <state x="721" y="298" key="#xdebugger.evaluate" timestamp="1595016538389">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="721" y="298" key="#xdebugger.evaluate/0.27.1920.1053@0.27.1920.1053" timestamp="1595016538389" />
+    <state x="746" y="312" width="424" height="496" key="FileChooserDialogImpl" timestamp="1595028942340">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="746" y="312" width="424" height="496" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1595028942340" />
     <state width="1897" height="340" key="GridCell.Tab.0.bottom" timestamp="1595019155633">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
