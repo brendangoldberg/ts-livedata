@@ -1,0 +1,22 @@
+{
+  "name": "ts-livedata",
+  "version": "0.1.0",
+  "description": "A Typescript LiveData library",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/test/**/*.spec.ts",
+    "coverage": "nyc mocha -r ts-node/register src/test/**/*.spec.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Brendan Goldberg",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^8.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "nyc": "^15.1.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
