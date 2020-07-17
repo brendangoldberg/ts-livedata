@@ -1,9 +1,9 @@
-import {Observer} from "./Observer";
+import Observer from "./Observer";
 
 /**
  * Data holder that observers changes in state.
  */
-export abstract class LiveData<T> {
+abstract class LiveData<T> {
     protected observers: Array<Observer<T>> = []
 
     protected data: T | null = null
@@ -57,3 +57,5 @@ export abstract class LiveData<T> {
         return this.observers
     }
 }
+
+export default LiveData

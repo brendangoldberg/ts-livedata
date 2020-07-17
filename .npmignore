@@ -1,4 +1,4 @@
-src/test/
 .nycrc
 .idea/
 .nyc_output/
+src/**/*

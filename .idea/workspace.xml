@@ -11,10 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0c5006b-0bcd-4b55-a5f2-ef96da74828b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/LiveData.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/LiveData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/MutableLiveData.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/MutableLiveData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LiveData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/LiveData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MutableLiveData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/MutableLiveData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/MutableLiveData.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MutableLiveData.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-livedata-core-0.1.0.tgz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +117,7 @@
       <workItem from="1595013979465" duration="5173000" />
       <workItem from="1595019163683" duration="46000" />
       <workItem from="1595019216729" duration="17000" />
-      <workItem from="1595019257113" duration="1771000" />
+      <workItem from="1595019257113" duration="2243000" />
     </task>
     <servers />
   </component>
@@ -210,6 +217,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="452" y="184" width="1016" height="742" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1595019145027" />
+    <state x="648" y="159" width="623" height="783" key="find.popup" timestamp="1595029931212">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="648" y="159" width="623" height="783" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1595029931212" />
     <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1595018116861">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

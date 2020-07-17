@@ -1,4 +1,4 @@
-import {LiveData} from "./LiveData";
+import LiveData from "./LiveData";
 
 /**
  * Basic mutable instance of a {@link LiveData}.
