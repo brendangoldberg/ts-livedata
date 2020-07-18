@@ -1,4 +1,4 @@
-import Observer from "./Observer";
+import {Observer} from "./Observer";
 
 /**
  * Data holder that observers changes in state.
@@ -58,4 +58,4 @@ abstract class LiveData<T> {
     }
 }
 
-export default LiveData
+export {LiveData}

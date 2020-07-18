@@ -1,4 +1,4 @@
-import LiveData from "./LiveData";
+import { LiveData } from "./LiveData";
 /**
  * Basic mutable instance of a {@link LiveData}.
  */
@@ -10,4 +10,4 @@ declare class MutableLiveData<T> extends LiveData<T> {
      */
     postValue(value: T | null): void;
 }
-export default MutableLiveData;
+export { MutableLiveData };

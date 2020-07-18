@@ -1,5 +1,4 @@
-import MutableLiveData from "./MutableLiveData"
-import LiveData from "./LiveData"
-import Observer from "./Observer"
+import {MutableLiveData} from "./MutableLiveData"
+import {LiveData} from "./LiveData"
 
-export { MutableLiveData, LiveData, Observer }
+export default {MutableLiveData, LiveData}

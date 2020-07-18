@@ -1,4 +1,4 @@
-import Observer from "./Observer";
+import { Observer } from "./Observer";
 /**
  * Data holder that observers changes in state.
  */
@@ -33,4 +33,4 @@ declare abstract class LiveData<T> {
      */
     getObservers(): ReadonlyArray<Observer<T>>;
 }
-export default LiveData;
+export { LiveData };

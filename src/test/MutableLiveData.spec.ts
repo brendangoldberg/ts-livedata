@@ -1,7 +1,7 @@
 import {expect} from "chai"
 
-import MutableLiveData from "../MutableLiveData"
-import Observer from "../Observer"
+import {MutableLiveData} from "../MutableLiveData"
+import {Observer} from "../Observer"
 
 describe("MutableLiveData", () => {
 
