@@ -3,28 +3,16 @@
     "module": "esnext",
     "target": "es5",
     "lib": [
-      "es6",
-      "dom"
+      "es6"
     ],
-    "moduleResolution": "node",
-    "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "emitDeclarationOnly": true,
     "declaration": true,
-    "experimentalDecorators": true,
-    "baseUrl": "./",
-    "allowSyntheticDefaultImports": true,
-    "noErrorTruncation": false,
-    "allowJs": true,
+    "baseUrl": "./src",
     "outDir": "build",
-    "rootDir": "./src",
-    "paths": {
-      "@ts-livedata/core": [
-        "./src"
-      ]
-    }
+    "rootDir": "./src"
   },
   "exclude": [
-    "**/build/",
     "./src/test/**/*.spec.ts"
   ]
 }
