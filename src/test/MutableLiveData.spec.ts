@@ -1,14 +1,14 @@
 import {expect} from "chai"
 
 import MutableLiveData from "../MutableLiveData"
-import {Observer} from "../Observer"
+import Observer from "../Observer"
 
 describe("MutableLiveData", () => {
 
-    let liveData: MutableLiveData<String>
+    let liveData: MutableLiveData<String | null>
 
     beforeEach(() => {
-        liveData = new MutableLiveData<String>()
+        liveData = new MutableLiveData<String | null>()
     })
 
     it("should post single value", () => {
@@ -56,11 +56,11 @@ describe("MutableLiveData", () => {
         // Given
         const expected = 0
 
-        const observer1: Observer<String> = (value => {
+        const observer1: Observer<String | null> = (value => {
 
         })
 
-        const observer2: Observer<String> = (value => {
+        const observer2: Observer<String | null> = (value => {
 
         })
 
@@ -88,7 +88,7 @@ describe("MutableLiveData", () => {
         // Given
         const expected = 0
 
-        const observer1: Observer<String> = (value => {
+        const observer1: Observer<String | null> = (value => {
 
         })
 
@@ -116,11 +116,11 @@ describe("MutableLiveData", () => {
         // Given
         const expected = 1
 
-        const observer1: Observer<String> = (value => {
+        const observer1: Observer<String | null> = (value => {
 
         })
 
-        const observer2: Observer<String> = (value => {
+        const observer2: Observer<String | null> = (value => {
 
         })
 

@@ -10,7 +10,7 @@ class MutableLiveData<T> extends LiveData<T> {
      *
      * @param value The value to set.
      */
-    public postValue(value: T | null) {
+    public postValue(value: T) {
         this.data = value
         this.observers.forEach(observer => {
             observer(value)

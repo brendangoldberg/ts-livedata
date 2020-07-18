@@ -1,4 +1,4 @@
-import {Observer} from "./Observer";
+import Observer from "./Observer";
 
 /**
  * Data holder that observers changes in state.
