@@ -2,14 +2,8 @@
   "name": "@ts-livedata/core",
   "version": "0.0.0-alpha05",
   "description": "A TypeScript LiveData library.",
-  "scripts": {
-    "test": "mocha -r ts-node/register src/test/**/*.spec.ts",
-    "coverage": "nyc mocha -r ts-node/register src/test/**/*.spec.ts",
-    "prebuild": "rimraf build",
-    "build": "tsc && npm run copypackage",
-    "copypackage": "cp -rf package.json build",
-    "release": "npm run build && npm run test && cd build && npm publish --access public"
-  },
+  "author": "Brendan Goldberg",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/BrendanOswego/ts-livedata.git"
@@ -20,8 +14,14 @@
     "TypeScript",
     "Observer Pattern"
   ],
-  "author": "Brendan Goldberg",
-  "license": "MIT",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/test/**/*.spec.ts",
+    "coverage": "nyc mocha -r ts-node/register src/test/**/*.spec.ts",
+    "prebuild": "rimraf build",
+    "build": "tsc && npm run copypackage",
+    "copypackage": "cp -rf package.json build",
+    "release": "npm run build && npm run test && cd build && npm publish --access public"
+  },
   "dependencies": {
     "typescript": "^3.9.7",
     "tslib": "^2.0.0"
