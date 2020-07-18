@@ -5,4 +5,4 @@ interface Observer<T> {
     (value: T | null): void
 }
 
-export {Observer}
+export default Observer
