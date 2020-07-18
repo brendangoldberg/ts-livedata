@@ -1,4 +1,6 @@
-import {MutableLiveData} from "./MutableLiveData"
-import {LiveData} from "./LiveData"
+export {default as MutableLiveData} from "./MutableLiveData"
+export * from "./MutableLiveData"
 
-export default {MutableLiveData, LiveData}
+export {default as LiveData} from "./LiveData"
+export * from "./LiveData"
+

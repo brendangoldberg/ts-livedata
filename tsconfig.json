@@ -1,17 +1,30 @@
 {
   "compilerOptions": {
-    "target": "es6",
+    "module": "esnext",
+    "target": "es5",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
     "declaration": true,
-    "module": "commonjs",
-    "outDir": "lib",
-    "inlineSourceMap": true,
-    "sourceRoot": "./src/",
-    "rootDir": "./src/"
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "allowSyntheticDefaultImports": true,
+    "noErrorTruncation": false,
+    "allowJs": true,
+    "outDir": "build",
+    "rootDir": "./src",
+    "paths": {
+      "@ts-livedata/core": [
+        "./src"
+      ]
+    }
   },
-  "include": [
-    "src/**/*"
-  ],
   "exclude": [
-    "src/test/*"
+    "**/build/",
+    "./src/test/**/*.spec.ts"
   ]
 }

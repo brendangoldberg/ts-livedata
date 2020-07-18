@@ -22,7 +22,7 @@ abstract class LiveData<T> {
     /**
      * @return  The current LiveData value.
      */
-    public getValue(): T {
+    public getValue(): T | null {
         return this.data
     }
 
@@ -58,4 +58,4 @@ abstract class LiveData<T> {
     }
 }
 
-export {LiveData}
+export default LiveData
