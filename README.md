@@ -1,5 +1,6 @@
 ## TS LiveData Library
 [![npm version](https://badge.fury.io/js/%40ts-livedata%2Fcore.svg)](https://badge.fury.io/js/%40ts-livedata%2Fcore)
+[![CircleCI](https://img.shields.io/circleci/project/github/BrendanOswego/ts-livedata/master.svg)](https://circleci.com/gh/BrendanOswego/ts-livedata/tree/master)
 
 ### About
 Observer pattern based library for TypeScript, similar to Android's [LiveData](https://developer.android.com/topic/libraries/architecture/livedata).
