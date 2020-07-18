@@ -1,12 +1,11 @@
 {
   "compilerOptions": {
-    "module": "esnext",
+    "module": "commonjs",
     "target": "es5",
     "lib": [
       "es6"
     ],
     "strict": true,
-    "emitDeclarationOnly": true,
     "declaration": true,
     "baseUrl": "./src",
     "outDir": "build",
