@@ -1,6 +1,6 @@
 {
   "name": "@ts-livedata/core",
-  "version": "0.0.0-alpha07",
+  "version": "0.1.0",
   "description": "A TypeScript LiveData library.",
   "author": "Brendan Goldberg",
   "license": "Apache-2.0",
