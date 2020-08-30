@@ -19,7 +19,7 @@
     "coverage": "nyc mocha -r ts-node/register src/test/**/*.spec.ts",
     "prebuild": "rimraf build",
     "build": "tsc && npm run copypackage",
-    "copypackage": "cp -t build package.json README.md LICENSE",
+    "copypackage": "cp {package.json,README.md,LICENSE} build",
     "release": "npm run build && npm run test && cd build && npm publish --access public"
   },
   "dependencies": {
